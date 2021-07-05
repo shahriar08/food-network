@@ -1,98 +1,122 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
+.orange-color{
+    color: #FC8F49;
+}
+h1{
+    font-size: 50px;
+    color: #575757;
+}
+
 /* nav start here  */
 .nav{
     text-align: center;
     color:#575757;
     text-decoration: none;
-    font-size: 16px;
-    font-weight: bold
+    font-size: 20px;
+    font-weight: bold;
 }
 ul{
     width: auto;
     margin-left: 50%;
-    margin-top: 10px;
+    margin-top: 15px;
 
 }
 li{
     display: inline-block;
-    padding: 15px 30px;
+    padding: 20px 35px;
 }
 
 /* nav end here */
 
-section{
-    margin-bottom: 50px;
-}
+
+/* Top banner section start */
+
 .top-banner{
     display: flex;
     padding-left: 5%;
 }
-
-h1{
+.top-banner p{
+    font-size: 20px;
+    color: #828282;
+    padding: 3% 0;
+    line-height: 35px;
+}
+.top-banner h1{
     font-size: 60px;
-    margin: 0;
-    padding: 0;
     color: #575757;
 }
-p{
-    color: #828282;
+
+.banner-width{
+    width: 50%;
+    padding: 10% 7%;
 }
-h2{
-    color:#707070;
+.banner-width img{
+    width: 80%;
 }
 .half-width{
-    width: 45%;
+    width: 50%;
     padding: 7% 7%;
 }
-
 .half-width img{
     width: 50%;
     height: 100%;
     padding: 2% 7%;
     margin-left: 250px;
-
 }
 
-.orange-color{
-    color: #FC8F49;
-}
+
 .order-btn{
-    background-image: linear-gradient(#FBA24F, #FF1E1E);
+    background-image: linear-gradient(to right,#f1965e, #f55932);
     padding: 13px 30px;
     text-decoration: none;
     border-radius: 25px;
     color: white;
-    font-weight: 700;
+    font-weight: 500;
 
 }
+/* Top banner section start */
 
 
+/* About section start here */
 .about-banner{
     display: flex;
     background-image: url(images/shapes/7.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
+.about-banner h2{
+    font-size: 40px;
+    color:#828282;
+}
+.about-banner p{
+    font-size: 20px;
+    color:#828282;
+    line-height: 1.7em;
+    padding-bottom: 70px;
+}
+/* About section end here */
 
 
-/* my recipe section start here */
+/* My recipe section start here */
 
 .my-recipe{
-
+    margin-top: 100px;
 }
-
+.my-recipe p{
+    padding-bottom: 20px;
+}
 .box{
-    width: 450px;
-    height: 550px;
-
+    width: 400px;
+    height: 510px;
+    line-height: 1.7em;
     display: inline-block;
     margin-left: 4%;
-    border-radius: 15px;
-    box-shadow: 10px 10px 40px gray;
+    border-radius: 25px;
+    box-shadow: 10px 10px 40px rgba(10, 10, 10, 0.397);
 }
 
 .box img{
@@ -100,26 +124,34 @@ h2{
     width:90%;
     margin-bottom: 3px;
     border-radius: 15px;
-
-
 }
 .box p{
-    padding: 5%;
-
+    padding:0 5%;
     text-align: justify;
 }
 
+.box h2{
+    padding: 0 5%;
+    text-align: left;
+
+}
 
 /* reviews section start */
+.reviews{
+    margin-top: 120px;
+}
 
+.reviews p{
+    padding-bottom: 20px;
+}
 .box-reviews{
-    width: 450px;
-    height: 550px;
-
+    width: 400px;
+    height: 460px;
+    line-height: 1.7em;
     display: inline-block;
     margin-left: 4%;
-    border-radius: 15px;
-    box-shadow: 10px 10px 40px gray;
+    border-radius: 25px;
+    box-shadow: 10px 10px 40px rgba(10, 10, 10, 0.397);
 }
 
 .box-reviews img{
@@ -127,12 +159,14 @@ h2{
     width:90%;
     margin-bottom: 3px;
     border-radius: 15px;
+}
 
-
+.box-reviews h2{
+    padding: 0 5%;
+    text-align: left;
 }
 .box-reviews p{
-    padding: 5%;
-
+    padding: 0 5%;
     text-align: justify;
 }
 
@@ -142,6 +176,9 @@ h2{
 
 
 /* reviews section end */
+
+
+/* Social section start here */
 .social{
     display: inline-block;
     margin-left: 4%;
@@ -153,9 +190,9 @@ h2{
     padding: 50px;
     margin:150px 200px;
     border-radius: 20px;
-    box-shadow: 5px 15px 50px gray;
+    box-shadow: 0px 0px 40px rgba(10, 10, 10, 0.219);
 }
-
+/* Social section end here */
 
 
 
@@ -163,11 +200,11 @@ h2{
 /* footer section start */
 
 footer{
-    background-color: #3C3C3C;
+    background-color: #0B0D17;
     height: 230px;
 }
 footer h2{
-    color:white;
+    color:#828282;
     font-size: 1.7em;
     padding-top: 40px;
 }
@@ -175,5 +212,4 @@ footer h2{
 footer p{
     color: wheat;
 }
-
 /* footer section end */
